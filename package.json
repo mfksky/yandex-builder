@@ -1,0 +1,23 @@
+{
+  "name": "yandex",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "watch": "node utils/processHtml.js",
+	"imageopt": "node utils/optimizeImages.js"
+  },
+  "devDependencies": {
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "chokidar": "^3.6.0",
+    "fs-extra": "^11.2.0",
+    "imagemin": "^9.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-svgo": "^11.0.1",
+    "postcss": "^8.4.41"
+  }
+}
