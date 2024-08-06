@@ -11,7 +11,7 @@
 1. Клонируйте репозиторий:
 
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
+    git clone https://github.com/mfksky/yandex-builder.git
     cd your-repo
     ```
 
